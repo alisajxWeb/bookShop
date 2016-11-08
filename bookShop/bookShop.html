@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<!--main文件-->
+<head>
+    <meta charset="UTF-8" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/tree.css">
+    <link href="css/center.css" rel="stylesheet" />
+    <link href="css/right.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</head>
+
+<body>
+    <header>BookShop</header>
+    <div id="left">
+        <ul class="tree"></ul>
+    </div>
+
+    <div id="center">
+        <nav class="nav"><a class="a1">首页</a></nav>
+        <div class="centerDiv">
+        </div>
+    </div>
+
+    <div id="right" ng-app="myApp" ng-controller="totalCtrl">
+        <p class="shopCart">Shopping Cart</p>
+        <p class="ttPrice">total price:$<span></span></p>
+        <div class="booksCart">
+        </div>
+
+        <button class="sub">BUY</button>
+    </div>
+</body>
+
+</html>

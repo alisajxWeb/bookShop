@@ -1,0 +1,61 @@
+
+.shopCart{
+        font-size:20px;
+        color:#ae5da1;
+}
+.ttPrice{
+        font-size:15px;
+        color:grey;
+}
+.ttPrice>span{
+        color:#aa89bd;
+}
+.booksCart{
+        border-left:2px solid #ae5da1;
+}
+.bookCart{
+        width:120px;
+        height:220px;
+        padding: 2px;
+        margin:15%;
+}
+.numChange{
+        float:left;
+}
+.numChange2{
+        float:right;
+        position:relative;
+        top:10%;
+}
+.num{
+        width:20px;;
+        padding:0;
+        margin:0;
+        float:left;
+        height:28px;
+}
+button{
+        display: block;
+        height:15.8px;
+        width:20px;
+        padding:0;
+        margin:0;
+        font-size: 6px;
+        background-color:#ea68a2;
+        border:1px solid #ea68a2;
+}
+.exhibit2{
+        width:100%;
+        height:150px;
+        border:2px solid #ea68a2;
+        background-repeat:no-repeat;
+}
+.sub{
+        background:#ea68a2;
+        color:white;
+        font-size:20px;
+        width:150px;
+        height:50px;
+        position:relative;
+        left:20px;
+}

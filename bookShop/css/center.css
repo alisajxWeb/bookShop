@@ -1,0 +1,39 @@
+
+.book{
+        width:120px;
+        height:220px;
+        background-color:white;
+        padding: 0px;
+        display: inline-block;
+        margin:35px; 
+}
+nav{
+        display:block;
+}
+.exhibit{
+        width:100%;
+        height:150px;
+        border:2px solid #aa89bd;
+}
+.a1{
+        display: inline-block;
+        color:#aa89bd;
+        font-size:15px;
+        font-weight:600;
+        text-decoration: underline;
+}
+.son{
+        width:120px;
+        height:220px;
+        padding: 0px;
+        position:absolute;
+}
+.exhibitSon{
+        width:100%;
+        height:150px;
+        border:2px solid #aa89bd;
+        background-repeat:no-repeat;
+}
+.a2{
+        font-size:15px;
+}
